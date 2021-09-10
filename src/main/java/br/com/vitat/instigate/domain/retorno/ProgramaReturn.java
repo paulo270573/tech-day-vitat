@@ -1,4 +1,4 @@
-package br.com.vitat.instigate.domain;
+package br.com.vitat.instigate.domain.retorno;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -7,11 +7,12 @@ import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
+
 @Builder
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Program {
+public class ProgramaReturn {
 
     private Long programId;
     private String program;
