@@ -1,4 +1,4 @@
-package br.com.vitat.instigate;
+package br.com.vitat.instigate.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
